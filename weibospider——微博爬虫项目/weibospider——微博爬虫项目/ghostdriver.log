@@ -1,0 +1,68 @@
+[INFO  - 2018-12-04T03:08:42.158Z] GhostDriver - Main - running on port 49532
+[INFO  - 2018-12-04T03:08:45.482Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1","webSecurityEnabled":true}
+[INFO  - 2018-12-04T03:08:45.483Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.customHeaders:  - {}
+[INFO  - 2018-12-04T03:08:45.483Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"}
+[INFO  - 2018-12-04T03:08:45.483Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e97193e0-f771-11e8-968a-3b067f84d9c6
+[ERROR - 2018-12-04T03:09:18.662Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.onError - msg: Error: 网络错误
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:18.663Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.onError - stack:
+  throwError (https://security.weibo.com/app/js/geetest/gt.js:222)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:252)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:170)
+  onerror (https://security.weibo.com/app/js/geetest/gt.js:110)
+  appendChild (:0)
+  loadScript (https://security.weibo.com/app/js/geetest/gt.js:126)
+  tryRequest (https://security.weibo.com/app/js/geetest/gt.js:167)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:172)
+  onerror (https://security.weibo.com/app/js/geetest/gt.js:110)
+  appendChild (:0)
+  loadScript (https://security.weibo.com/app/js/geetest/gt.js:126)
+  tryRequest (https://security.weibo.com/app/js/geetest/gt.js:167)
+  load (https://security.weibo.com/app/js/geetest/gt.js:179)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:249)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:211)
+  (anonymous function) (https://security.weibo.com/app/js/geetest/gt.js:170)
+  onerror (https://security.weibo.com/app/js/geetest/gt.js:110)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:19.434Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.onError - msg: Error: Loading chunk 1 failed.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:19.434Z] Session [e97193e0-f771-11e8-968a-3b067f84d9c6] - page.onError - stack:
+  apply (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:20.051Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892960032
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:21.176Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892961149
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:23.928Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892963912
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:27.006Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892967003
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:30.134Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892970091
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:35.849Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892975844
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:09:59.819Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543892999788
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:10:00.846Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543893000793
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:10:04.328Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543893004277
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:10:07.668Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543893007604
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-04T03:10:11.009Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1543893010974
+
+  phantomjs://platform/console++.js:263 in error
